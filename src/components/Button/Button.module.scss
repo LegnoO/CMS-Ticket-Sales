@@ -1,0 +1,40 @@
+/** @format */
+
+.wrapper {
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+   padding: 9px 16px;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  user-select: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 400;
+  color: var(--color);
+  font-weight: bold;
+  //padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  white-space:nowarp;
+  .content {
+    font-size: 16px;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    font-size: var(--icon-size);
+  }
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  &.small {
+    min-width: 88px;
+  }
+}
+
+.content-left {
+  justify-content: left;
+}

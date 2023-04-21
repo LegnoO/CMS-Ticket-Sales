@@ -1,0 +1,26 @@
+/** @format */
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .right {
+    display: flex;
+    .action {
+      display: flex;
+      gap: 24px;
+      font-size: var(--icon-size);
+      color: var(--icon-color);
+      align-items: center;
+      .avatar {
+        display: flex;
+        img {
+          border-radius: 30px;
+          height: 32px;
+          width: 32px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

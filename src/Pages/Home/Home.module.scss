@@ -1,0 +1,35 @@
+/** @format */
+
+.wrapper {
+  
+  h2 {
+    margin-bottom: 25px;
+  }
+
+  & > div {
+    margin-bottom: 10px;
+  }
+  .revenue {
+    margin-bottom: 90px;
+    margin-top: 40px;
+    .title {
+      font-size: 14px;
+      color: #1e0d03;
+      font-weight: 500;
+      opacity: 0.5;
+    }
+    .total_price {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      color: #1e0d03;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}

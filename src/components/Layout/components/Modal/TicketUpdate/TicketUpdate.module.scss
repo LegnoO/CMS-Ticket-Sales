@@ -1,0 +1,51 @@
+/** @format */
+
+.wrapper {
+  .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .top {
+      h4 {
+        font-size: 24px;
+      }
+    }
+    .content {
+      margin: 10px 0;
+      display: flex;
+      gap: 10%;
+      .title {
+        ul {
+          li {
+            font-weight: 500;
+          }
+        }
+      }
+      .title,
+      .data {
+        display: flex;
+        align-items: center;
+        ul {
+          li {
+            padding: 8px 0;
+            font-size: 15px;
+            color: #1e0d03;
+          }
+        }
+      }
+    }
+  }
+  .top,
+  .bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .bottom {
+    display: flex;
+    gap: 20px;
+    button {
+      border-color: #ff993c;
+      min-width: 140px;
+    }
+  }
+}

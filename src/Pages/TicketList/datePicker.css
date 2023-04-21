@@ -1,0 +1,6 @@
+/** @format */
+
+.react-datepicker__month-container *,
+.react-datepicker__current-month {
+  font-size: 13px !important;
+}

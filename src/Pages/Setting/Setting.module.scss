@@ -1,0 +1,77 @@
+/** @format */
+@import "../../components/GlobalStyles/pagination.scss";
+
+.wrapper {
+  h2 {
+    font-size: 30px;
+  }
+  .nav {
+    display: flex;
+    margin: 30px 0;
+    .action-btn {
+      display: flex;
+      gap: 25px;
+      justify-content: flex-end;
+      flex: 1;
+      button {
+        display: flex;
+        font-weight: 500;
+        &:hover {
+          color: #fff;
+          background-color: #ff993c;
+        }
+      }
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+
+    th {
+      background-color: #eee;
+      font-weight: bold;
+    }
+
+    th,
+    td {
+      // padding: 10px;
+      // border: 1px solid #ccc;
+      font-size: 14px;
+
+      padding: 10px;
+    }
+
+    .list {
+      .update-button {
+        cursor: pointer;
+        color: #ff993c;
+      }
+    }
+  }
+  .pagination {
+    @extend .pagination;
+  }
+  // table {
+  //   border-collapse: collapse;
+  //   width: 100%;
+  //   th,
+  //   td {
+  //     white-space: nowrap;
+  //     padding: 10px 15px;
+  //     color: #000;
+  //     font-weight: 400;
+  //     font-size: 13px;
+  //   }
+  //   thead > tr {
+  //     background-color: #f1f4f8;
+  //     th {
+  //       white-space: nowrap;
+  //       text-align: start;
+  //       color: #000;
+  //       font-weight: 450;
+  //       font-size: 15px;
+  //     }
+  //   }
+  // }
+}

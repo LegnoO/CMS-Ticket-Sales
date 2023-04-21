@@ -1,0 +1,50 @@
+/** @format */
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+
+  .inner {
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      position: relative;
+      border-radius: 8px;
+      padding: 25px;
+      color: #000;
+      background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+      margin-bottom: 5%;
+      animation: modalFadeIn ease 0.5s;
+      .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 8px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@keyframes modalFadeIn {
+  from {
+    transform: translateX(250px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}

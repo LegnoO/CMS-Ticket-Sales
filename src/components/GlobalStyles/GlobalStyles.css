@@ -1,0 +1,105 @@
+/** @format */
+
+/* @import 'normalize.css'; */
+/* @import url('https://fonts.cdnfonts.com/css/netflix-font'); */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900");
+
+:root {
+  --icon-color: #475569;
+  --icon-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  letter-spacing: 0;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 1.6rem;
+  /* line-height: 1.5; */
+  text-rendering: optimizeSpeed;
+}
+
+button,
+input,
+[tabindex] {
+  border: none;
+  outline: none;
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+img,
+svg {
+  /* width: 100%;
+   display: block;
+    margin: 0;  */
+}
+
+polygon {
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-width: 0px;
+  border: none;
+}
+
+/* ------------------ Text ------------------ */
+
+.text-start {
+  text-align: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+/* ------------------ Flex ------------------ */
+
+.d-flex {
+  display: flex;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+
+/* ------------------ Margin ------------------ */
+.m-0 {
+  margin: 0;
+}

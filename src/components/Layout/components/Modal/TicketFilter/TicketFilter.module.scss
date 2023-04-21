@@ -1,0 +1,108 @@
+/** @format */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  h2 {
+    margin-bottom: 15px;
+  }
+  .date {
+    .date-picker {
+      display: flex;
+      gap: 27%;
+      .content {
+        h4 {
+          font-weight: 500;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    // input {
+
+    //   &::-webkit-calendar-picker-indicator {
+    //     background-color: #ccc;
+    //     padding: 5px;
+    //     cursor: pointer;
+    //     border-radius: 50%;
+    //     &:hover {
+    //       background-color: rgba(255, 255, 255, 0.08);
+    //     }
+    //   }
+    // }
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .status {
+    h4 {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .checkbox {
+      display: flex;
+      gap: 40px;
+      .checkbox-item {
+        display: flex;
+        align-items: center;
+        // input {
+        //   height: 18px;
+        //   width: 18px;
+        //   & + label {
+        //     margin-left: 5px;
+        //   }
+        // }
+      }
+    }
+  }
+
+  .gate {
+    h4 {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .checkbox {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 10px;
+      .col-1,
+      .col-2 {
+        display: flex;
+        width: 100%;
+      }
+      .checkbox-item {
+        width: 33.33%;
+        display: inline-flex;
+        align-items: center;
+        // input {
+        //   &:checked {
+        //     background-color: blue;
+        //     border-color: red;
+        //     color: blue;
+        //   }
+
+        //   & + label {
+        //     margin-left: 5px;
+        //   }
+        // }
+      }
+    }
+  }
+}
+.button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  span > button {
+    font-weight: 600;
+    color: #ff993c;
+    font-size: 18px;
+    width: 130px;
+    border: 1px solid #ff993c;
+  }
+}

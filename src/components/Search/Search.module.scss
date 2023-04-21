@@ -1,0 +1,23 @@
+/** @format */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 288px;
+  border-radius: 30px;
+  background-color: #ededed;
+  padding: 8px 12px 8px 12px;
+
+  input {
+    flex: 1;
+    font-size: 12px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .icon {
+    color: var(--icon-color);
+    font-size: var(--icon-size);
+  }
+}
