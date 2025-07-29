@@ -5,6 +5,10 @@
   flex-direction: column;
   gap: 50px;
   .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     img {
       height: 58px;
       width: auto;
